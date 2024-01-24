@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240124102554">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp class="header ">
+			<div class="header__container-big ">
+				<img class="header__logo" src="img/logo.svg" alt="logo">
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a data-name="hero" href="#" data-goto-top="10" data-goto-header data-goto=".hero" class="menu__link">Home</a></li>
+						<li class="menu__item"><a data-name="about" href="#" data-goto-top="10" data-goto-header data-goto=".about" class="menu__link">about</a></li>
+						<li class="menu__item"><a data-name="projects" href="#" data-goto-top="-34" data-goto=".projects" data-goto-header class="menu__link">projects</a></li>
+						<li class="menu__item"><a data-name="playground" href="#" data-goto-top="-20" data-goto-header data-goto=".playground" class="menu__link">playground</a></li>
+						<li class="menu__item"><a data-name="faq" href="#" data-goto-top="-40" data-goto=".faq" data-goto-header class="menu__link">faq</a></li>
+					</ul>
+				</nav>
+				<button data-popup="#mail" data-da=".menu__list, 768.98" type="button" class="header__button button">contact <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M15.5 8L18 12M18 12L15.5 16M18 12H6" stroke="#060708" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</svg></button>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<div id="mail" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<h4 class="popup__title">contact</h4>
+					<p class="popup__text">Subscribe to be notified</p>
+					<form data-dev action="#" class="popup__form">
+						<input data-required="email" autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Yourname@gmail.com" class="popup__input">
+						<button type="submit" class="popup__button button">Subscribe</button>
+					</form>
+					<button data-close type="button" class="popup__close button">close</button>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section data-watch-margin="-50%" data-watch="navigator" class="hero">
+				<div class="hero__container-big">
+					<h1 class="hero__title">designing
+						otherworldly
+						Experiences</h1>
+					<p class="hero__text">Join the journey
+						to craft captivating UI/UX designs
+						where every pixel narrates a
+						story of innovation and inspiration.
+					</p>
+					<a href="#" class="hero__button button">Let's Create Together<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15.5 8L18 12M18 12L15.5 16M18 12H6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg></a>
+				</div>
+				<picture><source srcset="img/hero/main.webp" type="image/webp"><img class="hero__bgimage" src="img/hero/main.png" alt="main image"></picture>
+			</section>
+			<section data-watch-margin="-40%" data-watch="navigator" class="about">
+				<div class="about__container-big">
+					<div class="about__container decor">
+						<div class="about__image">
+							<picture><source srcset="img/abouts/item-01.webp" type="image/webp"><img class="about__pictures1" src="img/abouts/item-01.png" alt="about image"></picture>
+							<picture><source srcset="img/abouts/item-02.webp" type="image/webp"><img class="about__pictures" src="img/abouts/item-02.png" alt="image portfolio"></picture>
+						</div>
+						<div class="about__body">
+							<div class="about__content">
+								<h2 class="about__title">Hey there</h2>
+								<p class="about__text">Lorem ipsum,
+									dolor sit amet consectetur adipisicing elit. Dolore, fuga! </p>
+								<div class="about__text2">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Corrupti, quisquam
+										voluptatum sunt soluta beatae molestiae saepe!
+										Recusandae vero ipsam voluptate?</p>
+									<p>
+										Lorem ipsum dolor sit amet consectetur,
+										adipisicing elit. Et maxime ad aliquid quis!
+									</p>
+								</div>
+								<button type="button" class="about__button button">contact me <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M15.5 8L18 12M18 12L15.5 16M18 12H6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-margin="-50%" data-watch="navigator" class="projects">
+				<div class="projects__container-big">
+					<div class="projects__container decor">
+						<div class="projects__body">
+							<h2 class="projects__title">projects</h2>
+							<div class="projects__swiperbtn">
+								<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+								<button type="button" class="swiper-button-left">
+									<svg width="12" height="8" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 1L13 5M13 5L10.5 9M13 5H1" stroke="#E9E7E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+								<button type="button" class="swiper-button-right ">
+									<svg width="12" height="8" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 1L13 5M13 5L10.5 9M13 5H1" stroke="#E9E7E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="projects__main">
+							<!-- Оболонка слайдера -->
+							<div class="projects__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="projects__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="projects__slide swiper-slide">
+										<picture><source srcset="img/projects/item-01.webp" type="image/webp"><img src="img/projects/item-01.png" alt="swiper image"></picture>
+										<div class="swiper-slide__context">
+											<span class="swiper-slide__text">SOFTWARE</span>
+											<h3 class="swiper-slide__title">Redefining E-Commerce</h3>
+										</div>
+									</div>
+									<div class="projects__slide swiper-slide">
+										<picture><source srcset="img/projects/item-02.webp" type="image/webp"><img src="img/projects/item-02.png" alt="swiper image"></picture>
+										<div class="swiper-slide__context">
+											<span class="swiper-slide__text">SOFTWARE</span>
+											<h3 class="swiper-slide__title">Redefining E-Commerce</h3>
+										</div>
+									</div>
+									<div class="projects__slide swiper-slide">
+										<picture><source srcset="img/projects/item-03.webp" type="image/webp"><img src="img/projects/item-03.png" alt="swiper image"></picture>
+										<div class="swiper-slide__context">
+											<span class="swiper-slide__text">SOFTWARE</span>
+											<h3 class="swiper-slide__title">Redefining E-Commerce</h3>
+										</div>
+									</div>
+									<div class="projects__slide swiper-slide">
+										<picture><source srcset="img/projects/item-01.webp" type="image/webp"><img src="img/projects/item-01.png" alt="swiper image"></picture>
+										<div class="swiper-slide__context">
+											<span class="swiper-slide__text">SOFTWARE</span>
+											<h3 class="swiper-slide__title">Redefining E-Commerce</h3>
+										</div>
+									</div>
+									<div class="projects__slide swiper-slide">
+										<picture><source srcset="img/projects/item-03.webp" type="image/webp"><img src="img/projects/item-03.png" alt="swiper image"></picture>
+										<div class="swiper-slide__context">
+											<span class="swiper-slide__text">SOFTWARE</span>
+											<h3 class="swiper-slide__title">Redefining E-Commerce</h3>
+										</div>
+									</div>
+								</div>
+								<!-- Якщо потрібна пагінація -->
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-margin="-15%" data-watch="navigator" class="playground">
+				<div class="playground__container-big">
+					<div class="playground__container decor">
+						<div class="playground__body">
+							<h2 class="playground__title">My Design Playground</h2>
+							<button type="submit" class="playground__button button">contact me</button>
+						</div>
+						<div class="playground__product product-playground">
+							<article class="product-playground__items">
+								<img src="img/playground/item-01.svg" alt="product image">
+								<h3 class="product-playground__title">UI/UX Mastery</h3>
+								<p class="product-playground__text">Creating designs that
+									look good and resonate with the audience,
+									resulting in higher engagement and satisfaction.</p>
+							</article>
+							<article class="product-playground__items">
+								<img src="img/playground/item-02.svg" alt="product image">
+								<h3 class="product-playground__title">UI/UX Mastery</h3>
+								<p class="product-playground__text">Creating designs that
+									look good and resonate with the audience,
+									resulting in higher engagement and satisfaction.</p>
+							</article>
+							<article class="product-playground__items">
+								<img src="img/playground/item-03.svg" alt="product image">
+								<h3 class="product-playground__title">UI/UX Mastery</h3>
+								<p class="product-playground__text">Creating designs that
+									look good and resonate with the audience,
+									resulting in higher engagement and satisfaction.</p>
+							</article>
+							<article class="product-playground__items">
+								<img src="img/playground/item-04.svg" alt="product image">
+								<h3 class="product-playground__title">UI/UX Mastery</h3>
+								<p class="product-playground__text">Creating designs that
+									look good and resonate with the audience,
+									resulting in higher engagement and satisfaction.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-margin="-15%" data-watch="navigator" class="faq">
+				<div class="faq__container-big">
+					<h2 class="faq__title">Your Burning Questions</h2>
+					<div class="faq__content">
+						<div data-spollers class="faq spollers ">
+							<details class="spollers__item">
+								<summary class="spollers__title">What is your design process like</summary>
+								<div class="spollers__body">My design process is a holistic journey
+									that begins with understanding
+									user needs and market trends.
+									From conceptualization and wireframing to prototyping and final
+									execution,
+									I prioritize user-centricity, innovation, and seamless functionality.</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">Do you work outside of San Francisco</summary>
+								<div class="spollers__body">My design process is a holistic journey
+									that begins with understanding
+									user needs and market trends.
+									From conceptualization and wireframing to prototyping and final
+									execution,
+									I prioritize user-centricity, innovation, and seamless functionality.</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">What types of projects do you do?</summary>
+								<div class="spollers__body">My design process is a holistic journey
+									that begins with understanding
+									user needs and market trends.
+									From conceptualization and wireframing to prototyping and final
+									execution,
+									I prioritize user-centricity, innovation, and seamless functionality.</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">How do you stay updated on design trends</summary>
+								<div class="spollers__body">My design process is a holistic journey
+									that begins with understanding
+									user needs and market trends.
+									From conceptualization and wireframing to prototyping and final
+									execution,
+									I prioritize user-centricity, innovation, and seamless functionality.</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">What is your typical project timeline</summary>
+								<div class="spollers__body">My design process is a holistic journey
+									that begins with understanding
+									user needs and market trends.
+									From conceptualization and wireframing to prototyping and final
+									execution,
+									I prioritize user-centricity, innovation, and seamless functionality.</div>
+							</details>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="message">
+				<div class="message__container">
+					<h2 class="message__title">NEED DESIGN?LET’S TALK</h2>
+					<p class="message__text">Let's transform the digital landscape together.</p>
+					<button data-popup="#mail" type="button" class="message__button button">SEND A MESSAGE <svg width="20" height="20" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10.5 1L13 5M13 5L10.5 9M13 5H1" stroke="#E9E7E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg></button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container-big">
+				<div class="footer__container decor">
+					<img class="footer__logo" src="img/logo.svg" alt="footer logo">
+					<a href="mailto:@examplecompany" class="footer__contact">all rights reserved @examplecompany </a>
+					<ul class="footer__privacy">
+						<li>Cookie Policy</li>
+						<li>Privacy Policy</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240124102554"></script>
+</body>
+
+</html>
